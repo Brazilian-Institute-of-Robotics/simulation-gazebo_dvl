@@ -1,17 +1,14 @@
 <package>
   <description brief="DVL sensor simulated on gazebo">
-  
+
   </description>
-  <author>/</author>
+  <author>Tiago Trocoli/</author>
   <license></license>
   <url>http://</url>
   <logo>http://</logo>
   <depend package="base/cmake" />
-  <!--
-   To add any dependencies use the depend tag
-  <depend package="dummy-dependency-0" />
-	...
-  <depend package="dummy-dependency-n-1" />
-  <depend package="dummy-dependency-n" />
-  -->
+  <depend package="simulation/gazebo" />
+  <depend package="libprotobuf" />
+  <depend package="protobuf-compiler" />
+  <depend package="control/sdformat" />
 </package>
